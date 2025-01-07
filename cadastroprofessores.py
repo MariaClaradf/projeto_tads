@@ -2,13 +2,13 @@ from random import randint
 list = []
 
 
-def num_matricula():
+def num_matricula_prof():
     num = str(randint(10000, 50000))
     return num
 
 def cadastro_professores():
     nome = input('Digite seu nome: ')
-    matricula = num_matricula()
+    matricula = num_matricula_prof()
     nascimento = input('Digite sua data de nascimento: ')
     genero = input('Digite seu genero: ')
     endereco = input('Digite seu endereço: ')

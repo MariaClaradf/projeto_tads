@@ -2,13 +2,13 @@ from random import randint
 list = []
 
 
-def num_matricula():
+def num_matricula_aluno():
     num = str(randint(20000, 60000))
     return num
 
 def cadastro_aluno():
     nome = input('Digite seu nome: ')
-    matricula = num_matricula()
+    matricula = num_matricula_aluno()
     nascimento = input('Digite sua data de nascimento: ')
     genero = input('Digite seu genero: ')
     endereco = input('Digite seu endereço: ')
